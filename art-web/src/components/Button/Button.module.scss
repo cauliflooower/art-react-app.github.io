@@ -1,0 +1,28 @@
+.border{
+    position: relative;
+    border: 1px solid #000000;
+    height: 67px;
+    width: 50%;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover{
+        background-color: #CD2125;
+    }
+    .button{
+        width: 100%;
+        bottom: -17px;
+        left: 12px;
+        position: absolute;
+        padding: 22px 15px;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        text-align: center;
+        .buttonText{
+            margin: 0;
+            color: #000000;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

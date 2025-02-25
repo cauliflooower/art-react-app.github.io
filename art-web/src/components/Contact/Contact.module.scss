@@ -1,0 +1,32 @@
+.contact{
+    font-family: "Montserrat";
+    padding: 100px 0;
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1200px;
+        .contactInner{
+            display: flex;
+            column-gap: 100px;
+            .contactInfo{
+                display: flex;
+                flex-direction: column;
+                row-gap: 40px;
+                width: 80%;
+                .contactBlock{
+                    h5{
+                        margin: 0 0 15px 0;
+                        font-size: 18px;
+                    }
+                    display: flex;
+                    column-gap: 30px;
+                    .contactSocial{
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

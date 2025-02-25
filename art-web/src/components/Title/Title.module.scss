@@ -1,0 +1,17 @@
+.mainTitle{
+    background-color: #FFFFFF;
+    padding: 25px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1200px;
+        h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: #CD2125;
+            font-family: "Montserrat", serif;
+        }
+    }
+}

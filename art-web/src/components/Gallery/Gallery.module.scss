@@ -1,0 +1,67 @@
+.gallery{
+    font-family: "Montserrat";
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1200px;
+        .galleryButtons{
+            padding: 100px 0 0 0;
+            display: flex;
+            column-gap: 60px;
+        }
+        .galleryInner{
+            padding: 80px 0 100px;
+            display: flex;
+            column-gap: 30px;
+            row-gap: 30px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .galleryItem{
+                width: 30.3%;
+
+            }
+        }
+        .worksProcess{
+            h4{
+                color: #CD2125;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .galleryLine{
+                margin: 60px 0 0 0;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .elipse{
+                    padding: 15px 25px;
+                    border: 1px solid #000000;
+                    border-radius: 100%;
+                    background-color: #FFFFFF;
+                    z-index: 2;
+                    font-size: 16px;
+                }
+                .line{
+                    position: absolute;
+                    width: 100%;
+                    top: 26px;
+                    border: 0.1px solid #000000;
+                }
+                .active{
+                    background-color: #CD2125;
+                    padding: 15px 20px;
+                }
+            }
+        }
+        .worksText{
+            width: 96%;
+            display: flex;
+            column-gap: 70px;
+            padding: 0 0 100px 0;
+            h5{
+                font-size: 18px;
+                color: #000000;
+            }
+        }
+    }
+}
