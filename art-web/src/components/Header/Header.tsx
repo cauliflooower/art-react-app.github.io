@@ -1,6 +1,8 @@
 import classes from "./Header.module.scss"
 import GeoSvg from "../../assets/svg/GeoSvg"
 import ProfileSvg from "../../assets/svg/ProfileSvg"
+import { Link, animateScroll as scroll } from "react-scroll";
+import Logo from "./Logo";
 
 function Header() {
 
@@ -8,14 +10,46 @@ function Header() {
       <div className={classes.header}>
         <div className={classes.container}>
             <div className={classes.headerInner}>
-                <h1 className={classes.logo}>ART HISTORY</h1>
+                <Logo/>
                 <div className={classes.list}>
-                    <ul>
-                        <li>Главная</li>
-                        <li>Работы</li>
-                        <li>Магазин</li>
-                        <li>Контакты</li>
-                    </ul>
+                        <Link
+                            className={classes.link}
+                            activeClass="active"
+                            to="section1"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            Главная
+                        </Link>
+                        <Link
+                            className={classes.link}
+                            activeClass="active"
+                            to="section2"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            Работы
+                        </Link>
+                        <Link
+                            className={classes.link}
+                            activeClass="active"
+                            to="section3"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>Магазин</Link>
+                        <Link
+                            className={classes.link}
+                            activeClass="active"
+                            to="section4"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            Контакты
+                        </Link>
                 </div>
                 <div className={classes.closet}>
                     <div className={classes.city}>
@@ -24,7 +58,6 @@ function Header() {
                     </div>
                     <div className={classes.logout}>
                         <ProfileSvg/>
-                        <p>Профиль</p>
                     </div>
                 </div>
             </div>

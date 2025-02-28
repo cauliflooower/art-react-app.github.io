@@ -6,7 +6,7 @@ function Shop() {
   const cards = ['Абонементы', 'Мастер-классы', 'Подарочные сертификаты', 'Картины', 'День рождения', 'Свидания, вечеринки']
 
   return (
-    <div className={classes.shop}>
+    <div id="section3" className={classes.shop}>
         <div className={classes.container}>
             <div className={classes.shopInner}>
                 {cards.map((e, i) => <div key={i} className={classes.card}>{e}</div>)}

@@ -6,7 +6,7 @@ import Button from "../Button/Button"
 function Hero() {
 
   return (
-    <div className={classes.hero}>
+    <div id="section1" className={classes.hero}>
         <div className={classes.container}>
             <div className={classes.heroInner}>
                 <div className={classes.heroInfo}>

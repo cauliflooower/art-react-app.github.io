@@ -1,4 +1,4 @@
-import classes from "../../components/Title/Title.module.scss"
+import classes from "./Title.module.scss"
 
 
 function Title(props: any) {

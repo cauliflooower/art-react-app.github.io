@@ -14,7 +14,7 @@ function Gallery() {
   const imgs = [portrait1, portrait2, portrait3, portrait4, portrait5, portrait6]
 
   return (
-    <div className={classes.gallery}>
+    <div id="section2" className={classes.gallery}>
       <div className={classes.container}>
         <div className={classes.galleryButtons}>
           <Button name="Портреты"/>

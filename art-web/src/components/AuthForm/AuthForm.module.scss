@@ -1,0 +1,52 @@
+.auth{
+    font-family: "Montserrat";
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 500px;
+        .authInner{
+            padding: 70px 0;
+            row-gap: 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .text{
+                color: #CD2125;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            h2{
+                color: #CD2125;
+                font-weight: bold;
+            }
+            .authInputs{
+                max-height: 300px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                row-gap: 20px;
+                column-gap: 20px;
+                .authItem{
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    label{
+                        font-weight: bold;
+                    }
+                    input{
+                        border: 1px solid #000000;
+                        padding: 5px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+.borderForm{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+

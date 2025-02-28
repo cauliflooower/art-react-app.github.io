@@ -12,7 +12,14 @@
                 display: flex;
                 flex-direction: column;
                 row-gap: 40px;
-                width: 80%;
+                width: 50%;
+                .contactText{
+                    h4{
+                        color: #CD2125;
+                        font-size: 20px;
+                        padding-bottom: 30px;
+                    }
+                }
                 .contactBlock{
                     h5{
                         margin: 0 0 15px 0;

@@ -1,4 +1,4 @@
-import classes from "../../components/Button/Button.module.scss"
+import classes from "./Button.module.scss"
 
 function Button(props: any) {
 
