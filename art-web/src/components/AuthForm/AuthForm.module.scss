@@ -20,10 +20,10 @@
                 font-weight: bold;
             }
             .authInputs{
-                max-height: 300px;
+                // max-height: 300px;
                 display: flex;
                 flex-direction: column;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
                 row-gap: 20px;
                 column-gap: 20px;
                 .authItem{
@@ -37,6 +37,35 @@
                     input{
                         border: 1px solid #000000;
                         padding: 5px 5px;
+                    }
+                }
+            }
+            .registInputs{
+                display: flex;
+                flex-direction: column;
+                row-gap: 30px;
+                justify-content: center;
+                align-items: center;
+                .registItems{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 20px;
+                column-gap: 20px;
+                    .authItem{
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 5px;
+                        label{
+                            font-weight: bold;
+                        }
+                        input{
+                            border: 1px solid #000000;
+                            padding: 5px 5px;
+                        }
+                    }
+                    .item5{
+                        grid-column: span 2;
                     }
                 }
             }

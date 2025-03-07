@@ -5,9 +5,9 @@ function Button(props: any) {
     return (
         <>
         <div className={classes.border}>
-            <div className={classes.button}>
-                <p className={classes.buttonText}>{props.name}</p>
-            </div>
+            <button className={classes.button}>
+                {props.name}
+            </button>
         </div>
         </>
     )
